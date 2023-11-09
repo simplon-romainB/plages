@@ -61,5 +61,5 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: raloute/java:${{ github.sha }}
+          tags: yyshtar165/java:${{ github.sha }}
           build-args: JAR_FILE=target/plages-0.0.1-SNAPSHOT.jar
