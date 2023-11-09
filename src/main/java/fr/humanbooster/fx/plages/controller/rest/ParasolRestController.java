@@ -49,4 +49,5 @@ public class ParasolRestController {
 	public String traiterParasolInexistantException(Exception e) {
 		return e.getMessage();
 	}
+	
 }
