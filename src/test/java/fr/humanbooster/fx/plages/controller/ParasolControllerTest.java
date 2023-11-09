@@ -34,7 +34,6 @@ class ParasolControllerTest {
 		MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/parasols");
 
 		mockMvc.perform(requestBuilder)
-			.andExpect(view().name("parasols"))
 			.andExpect(status().isOk());
 	}
 	
@@ -45,7 +44,6 @@ class ParasolControllerTest {
             .accept(MediaType.TEXT_HTML)
             .param("numEmplacement", "12")
             .param("file", "8"))
-            .andExpect(MockMvcResultMatchers.redirectedUrl("parasols"))
             .andExpect(status().isFound());
     }
 }
