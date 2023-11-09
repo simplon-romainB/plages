@@ -1,4 +1,4 @@
-
+naame: tests
 on: push
 jobs:
   test:
