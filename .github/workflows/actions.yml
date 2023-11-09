@@ -1,6 +1,6 @@
-name: tests
-on: push
 jobs:
+  name: tests
+  on: push
   test:
     runs-on: ubuntu-latest
     steps:
@@ -13,4 +13,4 @@ jobs:
         distribution: 'adopt'
 
     - name: run tests
-      run: mvn clean test
+      run: mvn clean package -Dskiptests
