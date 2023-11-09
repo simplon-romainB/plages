@@ -1,0 +1,234 @@
+2023-09-06 09:59:56.926  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 19.0.1 on ns3435917 with PID 32329 (/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes started by fxcote in /home/fxcote/eclipse-workspaceCDAR20/plages20230906)
+2023-09-06 09:59:56.948  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 09:59:57.053  INFO 32329 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-06 09:59:57.053  INFO 32329 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-06 09:59:58.617  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 09:59:58.694  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 9 JPA repository interfaces.
+2023-09-06 09:59:59.578  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 09:59:59.588  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 09:59:59.588  INFO 32329 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 09:59:59.838  INFO 32329 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 09:59:59.846  INFO 32329 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-06 09:59:59.847  INFO 32329 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2793 ms
+2023-09-06 10:00:00.038  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-06 10:00:00.169  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-06 10:00:00.179  INFO 32329 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 10:00:00.323  INFO 32329 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 10:00:00.356  INFO 32329 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-06 10:00:00.462  INFO 32329 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-06 10:00:00.545  INFO 32329 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 10:00:01.109  INFO 32329 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 10:00:01.114  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 10:00:01.827  INFO 32329 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1920c6b3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@221c07b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7780952c, org.springframework.security.web.header.HeaderWriterFilter@71d54890, org.springframework.security.web.authentication.logout.LogoutFilter@678efe23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5af03b3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61deecdc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5feddf7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32ab9059, org.springframework.security.web.session.SessionManagementFilter@25d8fea8, org.springframework.security.web.access.ExceptionTranslationFilter@45b88f2, org.springframework.security.web.access.intercept.AuthorizationFilter@7b90285d]
+2023-09-06 10:00:01.940  WARN 32329 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06 10:00:02.265  INFO 32329 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-06 10:00:03.391  INFO 32329 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-06 10:00:03.400  INFO 32329 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-06 10:00:03.445  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 10:00:03.465  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Started PlagesApplication in 7.0 seconds (JVM running for 7.638)
+2023-09-06 10:00:03.778  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : Ajout de 100 clients
+2023-09-06 10:00:10.315  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:100
+2023-09-06 11:03:13.646  INFO 32329 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:03:13.646  INFO 32329 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:03:13.647  INFO 32329 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-06 11:03:13.726 ERROR 32329 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@38e63374]
+2023-09-06 11:03:14.658 ERROR 32329 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@6c74c084]
+2023-09-06 11:03:37.059  INFO 32329 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-06 11:03:37.065  INFO 32329 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-06 11:03:37.066  INFO 32329 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-06 11:03:37.087  INFO 32329 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 11:03:37.292  WARN 32329 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-06 11:03:37.293  INFO 32329 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-06 11:03:37.316  INFO 32329 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-06 11:03:37.510  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 19.0.1 on ns3435917 with PID 32329 (/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes started by fxcote in /home/fxcote/eclipse-workspaceCDAR20/plages20230906)
+2023-09-06 11:03:37.510  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 11:03:38.037  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 11:03:38.112  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 9 JPA repository interfaces.
+2023-09-06 11:03:38.488  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 11:03:38.489  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 11:03:38.489  INFO 32329 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 11:03:38.707  INFO 32329 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 11:03:38.713  INFO 32329 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-06 11:03:38.714  INFO 32329 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2023-09-06 11:03:38.821  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-06 11:03:38.828  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-06 11:03:38.829  INFO 32329 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 11:03:38.909  INFO 32329 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 11:03:38.919  INFO 32329 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 11:03:39.299  INFO 32329 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 11:03:39.299  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 11:03:39.999  INFO 32329 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d63401f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76864e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ed668ca, org.springframework.security.web.header.HeaderWriterFilter@5d81ef6e, org.springframework.security.web.authentication.logout.LogoutFilter@cef09de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77a1ba1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@218b57da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7323361a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ce3556d, org.springframework.security.web.session.SessionManagementFilter@5e758ac6, org.springframework.security.web.access.ExceptionTranslationFilter@93ea20, org.springframework.security.web.access.intercept.AuthorizationFilter@9b6090e]
+2023-09-06 11:03:40.118  WARN 32329 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06 11:03:40.306  INFO 32329 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-06 11:03:40.801  INFO 32329 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-06 11:03:40.804  INFO 32329 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-06 11:03:40.816  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 11:03:40.823  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Started PlagesApplication in 3.346 seconds (JVM running for 3824.996)
+2023-09-06 11:03:40.895  INFO 32329 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 11:03:40.895  INFO 32329 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-06 11:03:40.896  INFO 32329 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-06 11:03:40.902 ERROR 32329 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@21e96f78]
+2023-09-06 11:03:40.906  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : Ajout de 100 clients
+2023-09-06 11:03:47.420  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:100
+2023-09-06 11:03:47.764  INFO 32329 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-06 11:03:49.115 ERROR 32329 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@69d4aac7]
+2023-09-06 11:03:50.249 ERROR 32329 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@2a688322]
+2023-09-06 11:03:51.556 ERROR 32329 --- [http-nio-8080-exec-6] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@779ad999]
+2023-09-06 11:04:22.317 ERROR 32329 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@f426ee]
+2023-09-06 11:04:25.977 ERROR 32329 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@74f20108]
+2023-09-06 11:04:31.540 ERROR 32329 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@1b7d2e2e]
+2023-09-06 11:05:29.014  WARN 32329 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.rest.webmvc.ResourceNotFoundException: EntityRepresentationModel not found!]
+2023-09-06 11:07:43.856  INFO 32329 --- [http-nio-8080-exec-8] f.h.f.p.c.UtilisateurController          : Wed Sep 06 11:07:43 CEST 2023 dans getConnexion()
+2023-09-06 11:12:14.246  WARN 32329 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not read payload!; nested exception is java.lang.ClassCastException: class com.fasterxml.jackson.databind.node.MissingNode cannot be cast to class com.fasterxml.jackson.databind.node.ObjectNode (com.fasterxml.jackson.databind.node.MissingNode and com.fasterxml.jackson.databind.node.ObjectNode are in unnamed module of loader 'app')]
+2023-09-06 11:12:36.781  WARN 32329 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Could not read payload!; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('p' (code 112)): was expecting double-quote to start field name<EOL> at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 2, column: 6]]
+2023-09-06 11:27:03.247  INFO 32329 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 233 ms
+2023-09-06 11:28:51.269  INFO 32329 --- [http-nio-8080-exec-9] f.h.f.p.c.UtilisateurController          : Wed Sep 06 11:28:51 CEST 2023 dans getConnexion()
+2023-09-06 11:28:51.856 ERROR 32329 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@5385de77]
+2023-09-06 11:52:32.824  INFO 32329 --- [http-nio-8080-exec-10] f.h.f.p.c.UtilisateurController          : Wed Sep 06 11:52:32 CEST 2023 dans getConnexion()
+2023-09-06 12:12:52.823  INFO 32329 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-06 12:12:52.832  INFO 32329 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-06 12:12:52.833  INFO 32329 --- [Thread-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-06 12:12:52.838  INFO 32329 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:12:53.039  WARN 32329 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-06 12:12:53.040  INFO 32329 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-06 12:12:53.064  INFO 32329 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-06 12:12:53.388  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 19.0.1 on ns3435917 with PID 32329 (/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes started by fxcote in /home/fxcote/eclipse-workspaceCDAR20/plages20230906)
+2023-09-06 12:12:53.388  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 12:12:53.733  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 12:12:53.754  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 9 JPA repository interfaces.
+2023-09-06 12:12:53.921  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 12:12:53.924  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 12:12:53.925  INFO 32329 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 12:12:54.059  INFO 32329 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 12:12:54.060  INFO 32329 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-06 12:12:54.060  INFO 32329 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2023-09-06 12:12:54.123  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-06 12:12:54.133  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-06 12:12:54.133  INFO 32329 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 12:12:54.193  INFO 32329 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 12:12:54.213  INFO 32329 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 12:12:54.483  INFO 32329 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 12:12:54.483  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:12:54.952  INFO 32329 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63e2caa5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68f8c138, org.springframework.security.web.context.SecurityContextPersistenceFilter@70257e08, org.springframework.security.web.header.HeaderWriterFilter@4a2a3d3e, org.springframework.security.web.authentication.logout.LogoutFilter@1ccc6bde, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5044ab56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@df83796, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@162038da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d9b96c3, org.springframework.security.web.session.SessionManagementFilter@2a7f699f, org.springframework.security.web.access.ExceptionTranslationFilter@5df1fed, org.springframework.security.web.access.intercept.AuthorizationFilter@45ff872f]
+2023-09-06 12:12:55.033  WARN 32329 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06 12:12:55.229  INFO 32329 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-06 12:12:56.133  INFO 32329 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-06 12:12:56.137  INFO 32329 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-06 12:12:56.154  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 12:12:56.161  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Started PlagesApplication in 2.847 seconds (JVM running for 7980.335)
+2023-09-06 12:12:56.271  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : Ajout de 100 clients
+2023-09-06 12:13:02.890  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:101
+2023-09-06 12:13:03.183  INFO 32329 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-06 12:13:05.558  INFO 32329 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-09-06 12:13:05.559  INFO 32329 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-06 12:13:05.563  INFO 32329 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:13:05.764  WARN 32329 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-06 12:13:05.765  INFO 32329 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-09-06 12:13:05.766  INFO 32329 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-09-06 12:13:05.944  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 19.0.1 on ns3435917 with PID 32329 (/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes started by fxcote in /home/fxcote/eclipse-workspaceCDAR20/plages20230906)
+2023-09-06 12:13:05.944  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 12:13:06.153  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 12:13:06.186  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 9 JPA repository interfaces.
+2023-09-06 12:13:06.298  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 12:13:06.299  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 12:13:06.299  INFO 32329 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 12:13:06.407  INFO 32329 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 12:13:06.409  INFO 32329 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-06 12:13:06.409  INFO 32329 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 463 ms
+2023-09-06 12:13:06.466  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-06 12:13:06.467  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-06 12:13:06.468  INFO 32329 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 12:13:06.507  INFO 32329 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 12:13:06.517  INFO 32329 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 12:13:06.643  INFO 32329 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 12:13:06.643  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:13:07.235  WARN 32329 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes/fr/humanbooster/fx/plages/controller/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientServiceImpl' defined in file [/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes/fr/humanbooster/fx/plages/service/impl/ClientServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'fr.humanbooster.fx.plages.mapper.ClientMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-06 12:13:07.236  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:13:07.436  WARN 32329 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-06 12:13:07.437  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-06 12:13:07.446  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-06 12:13:07.447  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-06 12:13:07.455  INFO 32329 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-06 12:13:07.527 ERROR 32329 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in fr.humanbooster.fx.plages.service.impl.ClientServiceImpl required a bean of type 'fr.humanbooster.fx.plages.mapper.ClientMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'fr.humanbooster.fx.plages.mapper.ClientMapper' in your configuration.
+
+2023-09-06 12:13:12.994  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 19.0.1 on ns3435917 with PID 32329 (/home/fxcote/eclipse-workspaceCDAR20/plages20230906/target/classes started by fxcote in /home/fxcote/eclipse-workspaceCDAR20/plages20230906)
+2023-09-06 12:13:12.994  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 12:13:13.358  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 12:13:13.378  INFO 32329 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 9 JPA repository interfaces.
+2023-09-06 12:13:13.489  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 12:13:13.490  INFO 32329 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 12:13:13.491  INFO 32329 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 12:13:13.644  INFO 32329 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 12:13:13.645  INFO 32329 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-09-06 12:13:13.645  INFO 32329 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 650 ms
+2023-09-06 12:13:13.673  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-06 12:13:13.675  INFO 32329 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-06 12:13:13.675  INFO 32329 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 12:13:13.722  INFO 32329 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 12:13:13.726  INFO 32329 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 12:13:13.838  INFO 32329 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 12:13:13.838  INFO 32329 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:13:14.179  INFO 32329 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f47ee3a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58eb2694, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e08aff0, org.springframework.security.web.header.HeaderWriterFilter@49edba25, org.springframework.security.web.authentication.logout.LogoutFilter@47e7900f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fef1e98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13f36e6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37ebc2a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e2c9fa9, org.springframework.security.web.session.SessionManagementFilter@65baa14, org.springframework.security.web.access.ExceptionTranslationFilter@4a56fa16, org.springframework.security.web.access.intercept.AuthorizationFilter@145b6356]
+2023-09-06 12:13:14.206  WARN 32329 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06 12:13:14.296  INFO 32329 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-06 12:13:14.707  INFO 32329 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-06 12:13:14.709  INFO 32329 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-06 12:13:14.720  INFO 32329 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 12:13:14.727  INFO 32329 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Started PlagesApplication in 1.748 seconds (JVM running for 7998.901)
+2023-09-06 12:13:14.788  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : Ajout de 100 clients
+2023-09-06 12:13:21.542  INFO 32329 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:100
+2023-09-06 12:13:21.798  INFO 32329 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-06 12:14:38.225  INFO 32329 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 12:14:38.626  WARN 32329 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-06 12:14:38.627  INFO 32329 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-06 12:14:38.677  INFO 32329 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-06 15:06:04.456  INFO 4264 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Starting PlagesApplication using Java 17.0.7 on HBPC-HWMBD15-005 with PID 4264 (C:\Users\HB\Downloads\plages20230906\plages20230906\target\classes started by HB in C:\Users\HB\Downloads\plages20230906\plages20230906)
+2023-09-06 15:06:04.457  INFO 4264 --- [restartedMain] f.h.fx.plages.PlagesApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-09-06 15:06:04.547  INFO 4264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-06 15:06:04.547  INFO 4264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-06 15:06:06.398  INFO 4264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06 15:06:06.584  INFO 4264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 9 JPA repository interfaces.
+2023-09-06 15:06:08.393  INFO 4264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-06 15:06:08.416  INFO 4264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-06 15:06:08.417  INFO 4264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-06 15:06:08.993  INFO 4264 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-06 15:06:09.016  INFO 4264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-06 15:06:09.016  INFO 4264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4468 ms
+2023-09-06 15:06:09.463  INFO 4264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-06 15:06:10.055  INFO 4264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-06 15:06:10.083  INFO 4264 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-06 15:06:10.692  INFO 4264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06 15:06:10.830  INFO 4264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-06 15:06:11.167  INFO 4264 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-06 15:06:11.407  INFO 4264 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-06 15:06:12.951  INFO 4264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06 15:06:12.965  INFO 4264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06 15:06:15.034  INFO 4264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c3ef251, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c3536ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f1580b6, org.springframework.security.web.header.HeaderWriterFilter@4b659e49, org.springframework.security.web.authentication.logout.LogoutFilter@766d8ad2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7d29ee9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37cb1f8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c83f4f3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@414c0abd, org.springframework.security.web.session.SessionManagementFilter@79395c9f, org.springframework.security.web.access.ExceptionTranslationFilter@6c7229cd, org.springframework.security.web.access.intercept.AuthorizationFilter@4354349c]
+2023-09-06 15:06:15.306  WARN 4264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06 15:06:16.174  INFO 4264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-06 15:06:19.178  INFO 4264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-06 15:06:19.198  INFO 4264 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-06 15:06:19.353  INFO 4264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 15:06:19.384  INFO 4264 --- [restartedMain] f.h.fx.plages.PlagesApplication          : Started PlagesApplication in 15.546 seconds (JVM running for 16.568)
+2023-09-06 15:06:20.010  INFO 4264 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : Ajout de 100 clients
+2023-09-06 15:06:27.493  INFO 4264 --- [restartedMain] f.h.f.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:100
+2023-09-06 15:06:32.133  INFO 4264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 15:06:32.134  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-06 15:06:32.137  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-06 15:06:32.212  INFO 4264 --- [http-nio-8080-exec-1] f.h.f.p.c.UtilisateurController          : Wed Sep 06 15:06:32 CEST 2023 dans getConnexion()
+2023-09-06 15:06:39.667  INFO 4264 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1032 ms
